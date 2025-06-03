@@ -1,3 +1,3 @@
 # Meu Portfólio
 ***
-Acesse (aqui)[https://luskgpm.github.io/meu-portfolio/]
+Acesse (aqui){https://luskgpm.github.io/meu-portfolio/}
