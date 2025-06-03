@@ -130,7 +130,7 @@ main .github p {
 main .github a {
     align-self: center;
     padding: 10px 20px;
-    background-color: white;
+    background-color: var(--botao);
     border-radius: 20px;
     text-decoration: none;
     color: black;
