@@ -11,12 +11,20 @@
         justify-content: space-between;
         padding: 20px;
         top: 0;
+        left: 0;
+        right: 0;
         align-items: center;
+        transition: all .5s ease-in-out;
     }
 
     header.scrolled {
         position: sticky;
+        opacity: 0.6;
         background-color: transparent;
+    }
+
+    header.scrolled:hover {
+        opacity: 1;
     }
 
     header.scrolled a:hover {
@@ -50,14 +58,14 @@
         max-width: 500px;
         padding: 20px;
     }
-    
+
     main .aboutme h1 {
         font-size: 2.6em;
     }
 
     main .aboutme p {
         font-size: 1.2em;
-    }   
+    }
 
     main .github {
         width: 500px;
@@ -102,6 +110,7 @@
         max-width: 350px;
         transition: ease-in-out .2s;
     }
+
     .img img:hover {
         transform: scale(1.1);
     }

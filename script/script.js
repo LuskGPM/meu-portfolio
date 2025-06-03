@@ -13,7 +13,7 @@ sanduiche.onclick = () => {
 }
 
 window.onscroll = () => {
-    if (window.scrollY > 90) {
+    if (window.scrollY > 0) {
         header.classList.add('scrolled');
     } else {
         header.classList.remove('scrolled');
